@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: "Helvetica";
+            font-size: 2rem;
+        }
+        .container {
+    /* Full screen overlay */
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.container__close {
+    /* Shown at top right corner */
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- The close button -->
+        <button class="container__close">
+            X
+        </button>
+    
+        <!-- The navigation menu -->
+        <ul>
+            Home
+        </ul>
+        <ul>
+            Sobre
+        </ul>
+        <ul>
+            Serviços
+        </ul>
+        <ul>
+            Portfólio
+        </ul>
+        <ul>
+            Blog
+        </ul>
+
+    </div>
+</body>
